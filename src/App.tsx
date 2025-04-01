@@ -1,15 +1,23 @@
+import { ReactLenis } from 'lenis/react';
+
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Brand from './components/Brand';
+import Feature from './components/Feature';
 
 const App = () => {
   return (
-    <div className='relative isolate overflow-hidden'>
-      <Header />
+    <ReactLenis root>
+      <div className='relative isolate overflow-hidden'>
+        <Header />
 
-      <main>
-        <Hero />
-      </main>
-    </div>
+        <main>
+          <Hero />
+          <Brand />
+          <Feature />
+        </main>
+      </div>
+    </ReactLenis>
   );
 };
 
