@@ -3,7 +3,7 @@ import Hero from './components/Hero';
 
 const App = () => {
   return (
-    <div className=''>
+    <div className='relative isolate overflow-hidden'>
       <Header />
 
       <main>
