@@ -26,6 +26,20 @@ export const fadeInUp: Variants = {
   },
 };
 
+export const fadeInBot: Variants = {
+  start: {
+    y: -30,
+    opacity: 0,
+  },
+  end: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.7,
+    },
+  },
+};
+
 export const fadeInRight: Variants = {
   start: {
     x: -30,

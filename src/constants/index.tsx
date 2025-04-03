@@ -374,7 +374,7 @@ export const footerData = {
       items: [
         {
           href: '#',
-          label: 'Terms and Conditions',
+          label: 'Terms & Conditions',
         },
         {
           href: '#',
@@ -382,7 +382,7 @@ export const footerData = {
         },
         {
           href: '#',
-          label: 'Data Processing Agreement',
+          label: 'Data Agreement',
         },
         {
           href: '#',
@@ -391,7 +391,7 @@ export const footerData = {
       ],
     },
   ],
-  copyright: '© 2024 codewithsadee',
+  copyright: '© 2025 killfex',
   socialLinks: [
     {
       href: 'https://x.com/codewithsadee_',
@@ -402,7 +402,7 @@ export const footerData = {
       icon: <Github size={18} />,
     },
     {
-      href: 'https://www.linkedin.com/in/codewithsadee/',
+      href: 'https://www.linkedin.com/in/codewithsadee',
       icon: <Linkedin size={18} />,
     },
     {

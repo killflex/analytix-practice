@@ -1,3 +1,4 @@
+import { motion } from 'motion/react';
 import { Button } from './ui/button';
 import { Popover, PopoverContent, PopoverTrigger } from './ui/popover';
 import Logo from './Logo';
@@ -16,9 +17,18 @@ import { Menu } from 'lucide-react';
 
 import { navMenu } from '@/constants';
 
+// Framer Motion Variants
+import * as variants from '@/lib/motionVariants';
+
 const Header = () => {
   return (
-    <header className='h-16 grid grid-cols-1 items-center md:h-20 lg:h-24'>
+    <motion.header
+      variants={variants.fadeInBot}
+      initial='start'
+      whileInView='end'
+      viewport={{ once: true }}
+      className='h-16 grid grid-cols-1 items-center md:h-20 lg:h-24'
+    >
       <div className='container flex justify-between lg:grid lg:grid-cols-3'>
         <Logo variant='icon' />
 
@@ -93,7 +103,7 @@ const Header = () => {
           </PopoverContent>
         </Popover>
       </div>
-    </header>
+    </motion.header>
   );
 };
 
