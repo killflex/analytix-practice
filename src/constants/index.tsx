@@ -391,26 +391,26 @@ export const footerData = {
       ],
     },
   ],
-  copyright: '© 2025 killfex',
+  copyright: '&copy; 2025 killfex',
   socialLinks: [
     {
-      href: 'https://x.com/codewithsadee_',
+      href: 'https://x.com/fleksipi',
       icon: <Twitter size={18} />,
     },
     {
-      href: 'https://github.com/codewithsadee',
+      href: 'https://github.com/killflex',
       icon: <Github size={18} />,
     },
     {
-      href: 'https://www.linkedin.com/in/codewithsadee',
+      href: 'https://www.linkedin.com/in/ferry-hasan',
       icon: <Linkedin size={18} />,
     },
     {
-      href: 'https://www.instagram.com/codewithsadee',
+      href: 'https://www.instagram.com/killflex',
       icon: <Instagram size={18} />,
     },
     {
-      href: 'https://www.youtube.com/codewithsadee',
+      href: 'https://www.youtube.com/@killflex',
       icon: <Youtube size={18} />,
     },
   ],
