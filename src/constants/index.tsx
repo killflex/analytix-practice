@@ -391,7 +391,7 @@ export const footerData = {
       ],
     },
   ],
-  copyright: '&copy; 2025 killfex',
+  copyright: `© 2025 killflex`,
   socialLinks: [
     {
       href: 'https://x.com/fleksipi',
